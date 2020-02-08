@@ -1,0 +1,8 @@
+package ib.quote;
+
+record Bar {
+  fixed(4) open, high, low, close;
+};
+
+func equityQuote(string Ticker) -> stream Bar;
+
